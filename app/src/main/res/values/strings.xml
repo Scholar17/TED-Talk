@@ -1,4 +1,6 @@
 <resources>
     <string name="app_name">TED Talk</string>
     <string name="action_settings">Settings</string>
+    <string name="title"><b>TED</b> Talks</string>
+    <string name="texttest"><b>Do not try to beatig a wall </b></string>
 </resources>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:layout_marginBottom="8dp">
+
+    <ImageView
+        android:id="@+id/iv_img1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/motivation"
+        android:scaleType="centerCrop"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:layout_margin="8dp">
+
+        <TextView
+            android:id="@+id/tv_upper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Believe in mind"
+            android:textColor="#FFFFFF"
+
+            />
+
+        <TextView
+            android:id="@+id/tv_lower"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_upper"
+            android:text="@string/texttest"
+            android:textColor="#FFFFFF"
+
+
+            />
+
+        <TextView
+            android:id="@+id/tv_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_upper"
+            android:layout_alignParentRight="true"
+            android:gravity="right"
+            android:textColor="#FFFFFF"
+            android:text="9:16 " />
+
+        <ImageView
+            android:id="@+id/iv_dots"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/tv_time"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/ic_more_vert_black_24dp"/>
+
+
+
+
+    </RelativeLayout>
+</FrameLayout>
+</android.support.design.widget.CoordinatorLayout>
