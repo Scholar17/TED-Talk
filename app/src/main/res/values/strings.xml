@@ -3,4 +3,10 @@
     <string name="action_settings">Settings</string>
     <string name="title"><b>TED</b> Talks</string>
     <string name="texttest"><b>Do not try to beatig a wall </b></string>
+    <string name="paragraph_title"><b>World Cup 2018 team previews: What you need to know about all 32 teams</b></string>
+    <string name="world_cup_content">The 2018 World Cup might be missing some big nations, but that\'s what makes this tournament the best in sports. Brazil are looking to bounce back from a travesty in 2014, while Spain, Argentina and France are hoping to dethrone defending champions Germany and their typically deep squad. Can Belgium or Portugal make a splash? Do England have what it takes to challenge too?</string>
+    <string name="appbar_scrolling_view_behavior" translatable="false">android.support.widget.AppBarLayoutScrollingViewBehavior</string>
+    <string name="supporter"><i>World Cup news are free thanks to support from</i></string>
+    <string name="time">12sp</string>
 </resources>
+
